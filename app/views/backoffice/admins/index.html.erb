@@ -18,6 +18,7 @@
                     	
                         <tr>
                             <th>Id</th>
+                            <th>Nome</th>
                             <th>E-mail</th>
                            	<th></th>
                         </tr>
@@ -26,6 +27,7 @@
                     	<% @admins.each do |admin| %>
                         <tr>
                             <td><%= admin.id %></td>
+                            <td><%= admin.name %></td>
                             <td><%= admin.email %></td>
                             <td style="width: 81px">
 
